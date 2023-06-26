@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "consumoagua",
+    "name": "Consumo Agua",
     "slug": "consumoagua",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,12 +19,15 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.antunesicaro.consumoagua"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "5e7b1f55-3091-4f31-8195-5460acd22c51"
+      }
     }
   }
 }
